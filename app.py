@@ -245,7 +245,7 @@ def render_results_view():
         st.markdown(f"**Product:** {product_name}")
     
     with col2:
-        if st.button("🔄 Start New Analysis", type="primary"):
+        if st.button("🔄 Start New the Analysis", type="primary"):
             # Clear session state and restart
             st.session_state.processing_active = False
             st.session_state.final_results = None
