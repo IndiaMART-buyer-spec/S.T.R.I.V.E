@@ -67,16 +67,19 @@ COLUMN_MAPPINGS = {
         "frequency_column": "pageviews"
     },
     "whatsapp_specs": {
-        "data_column": "fk_im_spec_options_desc"
+        "data_column": "fk_im_spec_options_desc",
+         "frequency_column": "Frequency"
     },
     "pns_calls": {
         "data_column": "transcribed_text"
     },
     "rejection_comments": {
-        "data_column": "eto_ofr_reject_comment"
+        "data_column": "eto_ofr_reject_comment",
+        "frequency_column": "Frequency"
     },
     "lms_chats": {
-        "data_column": "message_text_json"
+        "data_column": "message_text_json",
+        "frequency_column": "Frequency"
     }
 }
 
